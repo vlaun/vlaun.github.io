@@ -1,0 +1,49 @@
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+.image {
+    background-image: url("../img/960.jpg");
+    width: 960px;
+    background-size: px;
+    text-align: center;
+    height: 540px;
+    padding: 5%;
+    margin: 0%;
+    top: 30;
+    color: white;
+}
+#p1 {
+    float:left;
+    width: 66%;
+}
+
+#p2  {
+    float: right;
+    width:33%;
+
+}
+
+#footer {
+    text-align: justify;
+    border: solid black 1px;
+    clear:both;
+
+}
+@media (max-width: 544px) {
+    nav li {
+        display: list-item;
+        list-style: none;
+        margin-right: 0;
+    }
+    .image h1{
+        font-size: medium;
+    }
+    #p1 {
+        width: 90%;
+    }
+    #p2 {
+        float: left;
+        width: 85%;
+    }
+}
