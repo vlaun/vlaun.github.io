@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First HTML Form</title>
+</head>
+<body>
+<div>
+    <form method="post" action="http://requestb.in/zfpol5zf">
+        <h2>User Login</h2>
+        <p>
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text" placeholder="Enter username here.">
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" placeholder="Enter password here.">
+        </p>
+        <p>
+            <button>Submit</button>
+        </p>
+
+    </form>
+</div>
+
+<div>
+    <form method="post" action="http://requestb.in/zfpol5zf">
+        <h2>Compose an Email</h2>
+
+        <input type="checkbox" id="save copy" name="save copy" value="yes">
+        <label for="save copy">Would you like to save a copy of your "Sent" folder?</label>
+        <p>
+            <label for="to">To</label>
+            <input id="to" name="to" type="to">
+        </p>
+        <p>
+            <label for="from">From</label>
+            <input id="from" name="from" type="from">
+        </p>
+        <p>
+            <label for="subject">Subject</label>
+            <input id="subject" name="to" type="subject">
+        </p>
+        <p>
+            <label for="body">body</label>
+            <textarea id="body" name="body" rows="5" cols="40"></textarea>
+        </p>
+
+        <p>
+            <button>Send</button>
+        </p>
+
+    </form>
+</div>
+
+<div>
+    <form method="post" action="http://requestb.in/zfpol5zf">
+        <h2>Multiple Choice Test</h2>
+
+        <p>Which airline do you prefer to travel on?</p>
+        <label><input type="checkbox" id="airline1" name="airline[]"  value="American Airlines" checked> American Airlines</label>
+        <label><input type="checkbox" id="airline2" name="airline[]"  value="Delta Airlines"> Delta Airlines</label>
+        <label><input type="checkbox" id="airline3" name="airline[]"  value="JetBlue Airlines"> JetBlue Airlines</label>
+        <label><input type="checkbox" id="airline4" name="airline[]"  value="Southwest Airlines" checked> Southwest Airlines</label>
+
+        <p>What type of food do you prefer eating?</p>
+        <label>
+            <input type="radio" name="q1" value="mexican">
+            Mexican
+        </label>
+        <label>
+            <input type="radio" name="q1" value="chinese">
+            Chinese
+        </label>
+        <label>
+            <input type="radio" name="q1" value="American">
+            American
+        </label>
+        <label>
+            <input type="radio" name="q1" value="indian">
+            Indian
+        </label>
+
+        <p>What color do you like?</p>
+        <label>
+            <input type="radio" name="q2" value="blue">
+            Blue
+        </label>
+        <label>
+            <input type="radio" name="q2" value="yellow">
+            Yellow
+        </label>
+        <label>
+            <input type="radio" name="q2" value="green">
+            Green
+        </label>
+        <label>
+            <input type="radio" name="q2" value="red">
+            Red
+        </label>
+        <p>
+            <button>Submit</button>
+        </p>
+
+    </form>
+</div>
+
+<div>
+    <form method="post" action="http://requestb.in/zfpol5zf">
+        <h2>Select Testing</h2>
+
+        <label for="dancing">Do you enjoy dancing?</label>
+        <select id="dancing" name="dancing">
+            <option value="2" selected> </option>
+            <option value="1" selected>Yes</option>
+            <option value="0">No</option>
+        </select>
+        <p>
+            <button>Submit</button>
+        </p>
+
+        <label for="season">Which season of the year do you like? </label>
+        <select id="season" name="season[]" multiple>
+            <option value="winter">Winter</option>
+            <option value="spring">Spring</option>
+            <option value="summer">Summer</option>
+            <option value="fall">Fall</option>
+        </select>
+        <p>
+            <button>Submit</button>
+        </p>
+    </form>
+
+</div>
+</body>
+</html>
